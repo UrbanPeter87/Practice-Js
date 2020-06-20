@@ -1,8 +1,8 @@
 var canvas = document.getElementById('myCanvas');
 var context = canvas.getContext('2d');
 
-var canvasWidth = canvas.width;
-var canvasHeight = canvas.height;
+var canvasWidth = canvas.clientWidth;
+var canvasHeight = canvas.clientHeight;
 
 context.beginPath();
 context.moveTo(canvasWidth - canvasWidth, canvasHeight - canvasHeight);
